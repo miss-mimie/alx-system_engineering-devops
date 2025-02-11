@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Defines useful functions for lazy developers (me)."""
+"""Defines useful functions for beginner developers"""
 
 import csv
 import requests
@@ -13,7 +13,7 @@ TODOS_URL = "https://jsonplaceholder.typicode.com/todos/"
 def get_todos(user_id=None) -> "list[dict]":
     """
     Retrieves a list of todos for a given user if the user ID is provided.
-    Else, it retrieves all todos.
+    Else,retrieves all todos.
 
     Args:
         user_id (int): The ID of the user.
