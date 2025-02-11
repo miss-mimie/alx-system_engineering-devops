@@ -11,6 +11,6 @@ if __name__ == "__main__":
     # get user info and todos once so we can minimize the number of requests.
     # this helps to achieve more speed since everything will be done locally
     # after the data has been retrieved.
-    users = lazy_methods.get_users()
-    todos = lazy_methods.get_todos()
-    lazy_methods.export_all_to_json(users=users, tasks=todos)
+    users = prototype.get_users()
+    todos = prototype.get_todos()
+    prototype.export_all_to_json(users=users, tasks=todos)
