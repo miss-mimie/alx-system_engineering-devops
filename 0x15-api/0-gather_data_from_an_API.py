@@ -2,7 +2,7 @@
 
 """
 Script takes an employee ID and returns the information about his/her
-completed TODO list progress. 
+completed TODO list progress.
 """
 
 import prototype
